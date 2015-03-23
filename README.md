@@ -1,6 +1,7 @@
 # Assembler Functions
 
-A Sass function library built for the Assembler framework.
+A Sass function library built for the
+[Assembler](https://github.com/chrisopedia/assembler) framework.
 
 ## Table of contents
 
