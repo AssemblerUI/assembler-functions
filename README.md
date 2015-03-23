@@ -1,6 +1,6 @@
-# assembler-functions Functions
+# Assembler Functions
 
-A Sass function library built for the assembler-functions framework.
+A Sass function library built for the Assembler framework.
 
 ## Table of contents
 
