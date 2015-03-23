@@ -1,0 +1,21 @@
+{
+  "name": "assembler-functions",
+  "description": "A Sass function library built for the Assembler framework",
+  "version": "0.1.0",
+  "keywords": [
+    "assembler",
+    "sass",
+    "library",
+    "functions"
+  ],
+  "main": [
+    "./dist/styles/_assembler-functions.scss"
+  ],
+  "styles": [
+    [
+    "./dist/styles/_assembler-functions.scss"
+    ]
+  ],
+  "demo": "https://chrisopedia.github.io/assembler-functions",
+  "license": "MIT"
+}

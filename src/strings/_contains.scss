@@ -1,0 +1,13 @@
+/*
+ * Return whether $value is contained in $list
+ *
+ * @param [list] $list
+ * @param [$value] $value
+ *
+ * @return [boolean]
+ */
+
+@function contains( $list, $value ) {
+	@return not not index( $list, $value );
+}
+

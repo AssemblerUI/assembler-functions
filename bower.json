@@ -1,0 +1,27 @@
+{
+  "name": "assembler-functions",
+  "description": "A Sass function library built for the Assembler framework",
+  "version": "0.1.0",
+  "keywords": [
+    "assembler",
+    "sass",
+    "library",
+    "functions"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "/.*",
+    "node_modules",
+    "bower_components",
+    "docs",
+    "tasks",
+    "_config.yml",
+    "browserlist",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.js",
+    "CONTRIBUTING.md",
+    "OWNERS.md",
+    "component.json"
+  ]
+}

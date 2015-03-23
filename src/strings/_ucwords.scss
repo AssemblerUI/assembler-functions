@@ -1,0 +1,27 @@
+/* Capitalize each word in string
+ *
+ * @depends [strings] _capitalize.scss
+ *
+ * @param [string] $str
+ *
+ * @return [string]
+ */
+
+@function ucwords( $str ) {
+	$progress: $str;
+	$result: '';
+
+	$running: true;
+
+	@while $running {
+		$index: str-index( $progress, ' ' );
+		@if $index {
+			$result: $result + capitalize( str-slice( $progress, 1, $index ) );
+			$progress: str-slice( $progress, ( $index + 1 ) );
+		} @else {
+			$running: false;
+		}
+	}
+
+	@return capitalize( $result ) + capitalize( $progress );
+}

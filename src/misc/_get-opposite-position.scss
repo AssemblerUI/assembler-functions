@@ -1,0 +1,23 @@
+/*
+ * Font Size
+ *
+ * @depends: [misc] _get-opposition-direction
+ *
+ * @param: [string] $direction - one of 4 directions (top|right|bottom|left)
+ *
+ * @returns: [css declaration]
+ *
+ */
+
+@function opposite-position( $direction ) {
+	$positions: top right bottom left;
+	$opposite: null;
+
+	@if not index( $positions, $direction ) {
+		@warn "Direction must be one of `top`, `right`, `bottom` or `left`; currently `#{$direction}`.";
+	} @else {
+		$opposite: get-opposite-direction( $direction );
+	}
+
+	@return $opposite;
+}
