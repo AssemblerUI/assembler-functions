@@ -1,0 +1,8 @@
+@function exp-maclaurin( $x, $n ) {
+	$result: pow( $x, $n ) / factorial( $n );
+	@return $result;
+}
+@function exp( $value ) {
+	$result: summation( exp-maclaurin, $value, 0, 100 );
+	@return $result;
+}
