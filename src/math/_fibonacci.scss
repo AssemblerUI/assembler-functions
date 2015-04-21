@@ -1,5 +1,5 @@
-@function fibonacci( $n ) {
-	$fib: 0 1;
+@function fibonacci( $n, $start: 1 2 ) {
+	$fib: $start;
 	@for $i from 1 through $n {
 		$new: nth( $fib, length( $fib ) ) + nth( $fib, length( $fib ) - 1 );
 		$fib: append( $fib, $new );
