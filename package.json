@@ -2,7 +2,7 @@
   "name": "assembler-functions",
   "description": "A Sass function library built for the Assembler framework",
   "author": "2015+ Chris Newton <chrisohpedia@gmail.com> (http://chrisnewton.me/about)",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "keywords": [
     "assembler",
     "sass",
