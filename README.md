@@ -15,7 +15,7 @@ A Sass function library built for the
 
 Four quick start options are available:
 
-- [Download the latest release](https://github.rp-core.com/chrisopedia/assembler-functions/archive/v0.3.1.zip).
+- [Download the latest release](https://github.rp-core.com/chrisopedia/assembler-functions/archive/v0.3.2.zip).
 - Clone the repo: `git clone https://github.rp-core.com/chrisopedia/assembler-functions.git`.
 - Install with [Bower](http://bower.io): `bower install assembler-functions`.
 - Install with [component(1)](https://github.com/componentjs/component): `component install assembler-functions`.

@@ -6,3 +6,19 @@
 	}
 	@return $fib;
 }
+@function getFibonacciNumber( $n, $start: 1 2 ) {
+	$x: nth($start, 1);
+	$y: nth($start, 2);
+	@if ( $n == 2 ) {
+		@return $y;
+	}
+	@if ( $n == 1 ) {
+		@return $x;
+	}
+	@for $i from 1 through $n - 1 {
+		$tempY: $y;
+		$y: $tempY + $x;
+		$x:$tempY;
+	}
+	@return $y;
+}
