@@ -1,7 +1,7 @@
 {
   "name": "assembler-functions",
   "description": "A Sass function library built for the Assembler framework",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "keywords": [
     "assembler",
     "sass",

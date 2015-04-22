@@ -1,6 +1,6 @@
 @function fibonacci( $n, $start: 1 2 ) {
 	$fib: $start;
-	@for $i from 1 through $n {
+	@for $i from 1 through $n - 2 {
 		$new: nth( $fib, length( $fib ) ) + nth( $fib, length( $fib ) - 1 );
 		$fib: append( $fib, $new );
 	}
