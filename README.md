@@ -1,5 +1,7 @@
 # Assembler Functions
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AssemblerUI/assembler-functions.svg)](https://greenkeeper.io/)
+
 A Sass function library built for the
 [Assembler](https://github.com/chrisopedia/assembler) framework.
 
